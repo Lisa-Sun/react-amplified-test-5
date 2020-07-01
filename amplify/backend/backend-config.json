@@ -1,1 +1,10 @@
-{}
+{
+	"function": {
+		"testFunction5": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda",
+			"dependsOn": []
+		}
+	}
+}
